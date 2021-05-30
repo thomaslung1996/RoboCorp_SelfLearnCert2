@@ -124,7 +124,7 @@ Screenshot and add to pdf
         
         Add Files To Pdf        ${files_to_add}     ${CURDIR}${/}output${/}${row_head}[Order number].pdf
         
-        Remove File      ${CURDIR}${/}output${/}order${row_head}[Order number].png
+        #Remove File      ${CURDIR}${/}output${/}order${row_head}[Order number].png
 
 
 *** Keywords ***
